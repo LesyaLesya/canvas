@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
+
+}
+
+
+.container {
+    max-width: 1300px;
+    min-width: 300px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#canv {
+    width: 1300px;
+    height: 500px;
+    background-color: white;
+
+}
+
+
+#time {
+    padding-left: 30px;
+
+}
+
+.time_style {
+    font-size: 16px;
+    color: darkblue;
+    line-height: 25px;
+}
+
+.toolButton {
+
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: 300;
+    width: 100px;
+    background-color: dimgrey;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid dimgrey;
+    border-top: 1px solid dimgrey;
+    color: lightgray;
+    padding-top: 50px;
+
+}
+
+
+.toolButton:hover {
+    background-color: lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    color: dimgrey;
+    cursor: pointer;
+
+}
+
+.size {
+    height: 25px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.toolButon {
+
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 300;
+    width: 100px;
+    background-color: dimgrey;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid dimgrey;
+    border-top: 1px solid dimgrey;
+    color: lightgray;
+    padding-top: 50px;
+}
+
+.toolButon:hover {
+    background-color: lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    color: dimgrey;
+    cursor: pointer;
+}
+
+
+
+#textField {
+    display: none;
+    width: 350px;
+    height: 30px;
+    outline: 1px solid black;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+#textField:focus {
+    outline: 1px solid deepskyblue;
+}
+
+
+.instuments {
+    background-color: dimgrey;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.desc_tool {
+    font-size: 14px;
+}
+
+#brush {
+    background-image: url(img/brush.png);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+
+}
+
+#fillCanv {
+    background-image: url(img/fill.png);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+
+}
+
+#textAdd {
+    background-image: url(img/text.png);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+}
+
+#eraser {
+    background-image: url(img/eraser.png);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+}
+
+#clean {
+    background-image: url(img/clear.png);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+}
+
+#x {
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#y {
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.choose {
+    font-size: 14px;
+    font-weight: 300;
+    display: inline;
+    margin-top: 15px;
+}
+
+#color {
+    height: 25px;
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#xCoord {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#yCoord {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.canv {
+    display: flex;
+    justify-content: center;
+}
+
+.coordinates {
+    margin-top: 10px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+}
+

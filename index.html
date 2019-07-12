@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Графический редактор</title>
+
+</head>
+
+<body>
+    <div class="head"></div>
+
+    <div class="container">
+
+
+        <div class="draw">
+            <div class="canv">
+                <canvas id="canv" width="1300" height="500"></canvas>
+            </div>
+
+            <div class="tools">
+                <div class="coordinates">
+                    <p id="x"><b>x: </b> <span id="xCoord"></span></p>
+                    <p id="y"><b>y: </b> <span id="yCoord"></span></p>
+                    <br /><br />
+                    <p class="choose">Выбрать размер:</p>
+                    <select id='sizeSelect' class="size">
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                    </select>
+
+                    <br />
+                    <p class="choose">Выбрать цвет:</p>
+                    <input type="color" id="color"><br />
+                </div>
+                <div class="instuments">
+
+                    <button class="toolButton" id='brush'>
+                        Кисть</button>
+
+                    <button class="toolButton" id='fillCanv'>Заливка</button>
+
+                    <button class="toolButton" id='textAdd'>Текст</button>
+
+                    <button class="toolButton" id='eraser'>Ластик</button>
+
+                    <button class="toolButon" id='clean'>Очистить</button>
+
+                    <input type="text" value="" placeholder="Введите текст и кликните на холст для его размещения" id="textField">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <!--  <div id="time" class="time_style"></div>-->
+
+    </div>
+
+    <script src="script.js">
+
+
+    </script>
+</body>
+
+</html>
